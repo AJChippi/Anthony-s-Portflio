@@ -1,0 +1,27 @@
+<main style="background-color: darkgrey;">
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary"
+  style="background-image: url('https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg?w=2000&t=st=1698559259~exp=1698559859~hmac=0b1939aca10eab149b69c974f2f1e58fcb79e38c5d9f6139d4e11cf7b68df97c');
+  background-size: 100%; background-repeat: no-repeat;" >
+    <div class="col-md-6 p-lg-5 mx-auto my-5" >
+      <h1 class="display-3 fw-bold" style="color: azure;">Anthony Chippi's Portfolio</h1>
+      <h2 class="display-3" style="color:honeydew; font-size: large;">"Great companies in the way they work start with great leaders." <br> -Steve Ballmer</h2>
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+</div>
+
+    <div style="display: flex; justify-content: space-between;">
+      <pdf-viewer src="./../../assets/Anthony's Resume 1-19-24.pdf"
+                  [render-text]="true"
+                  [original-size]="false"
+                  style="width: 49vw; height: 75vh; padding: 15px;"
+        ></pdf-viewer>
+      <pdf-viewer src="./../../assets/All About Me.pdf"
+                  [render-text]="true"
+                  [original-size]="false"
+                  style="width: 49vw; height: 75vh; padding: 15px;"
+        ></pdf-viewer>
+    </div>
+
+
+</main>
